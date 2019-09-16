@@ -7,9 +7,6 @@ let sendFile = require('./routes/sendFile.js')
 app.listen('3000');
 console.log('Magic happens at http://localhost:' + "3000")
 
-var hello = require('./hello.js')
-app.get('/hi',hello.rooooo)
-
 let x = "hi";
 
 let add = (num1,num2)=> {
